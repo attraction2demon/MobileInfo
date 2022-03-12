@@ -6,6 +6,41 @@ package com.mobile.mobilehardware.base;
 public class BaseData {
     public static final String UNKNOWN_PARAM = "unknown";
 
+    public static class Call {
+        public static final String NUMBER = "number";
+        public static final String NAME = "name";
+        public static final String DATE = "date";
+        public static final String TYPE = "type";
+        public static final String DURATION = "duration";
+    }
+
+    public static class Sms {
+        public static final String DATE = "date";
+        public static final String THEARD_ID = "theardId";
+        public static final String ID = "id";
+        public static final String ADRESS = "adress";
+        public static final String BODY = "body";
+        public static final String NAME = "name";
+        public static final String TYPE = "type";
+    }
+
+    public static class Image {
+        public static final String ID = "id";
+        public static final String DISPLAY_NAME = "displayName";
+        public static final String SIZE = "size";
+        public static final String DATA = "data";
+    }
+
+    public static class Contact {
+        public static final String NAME = "name";
+        public static final String ID = "id";
+        public static final String NUMBER = "number";
+    }
+
+    public static class Gps {
+        public static final String LATITUDE = "latitude";
+        public static final String LONGITUDE = "longitude";
+    }
 
     public static class Aduio {
         public static final String MAX_VOICE_CALL = "maxVoiceCall";
